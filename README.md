@@ -1,1 +1,1 @@
-# o-zbegim-practise
+# o'zbegim-practise
