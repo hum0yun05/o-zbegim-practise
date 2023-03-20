@@ -1,0 +1,249 @@
+.container-fluid{
+    position: relative;
+}
+
+/******************************************************************************First*/
+#bg1{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 650px;
+}
+
+.section{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-size: 100%;
+    background: linear-gradient(90deg, rgba(48, 46, 49, 0.8) 0%, rgba(21, 22, 21, 0.8) 100%);
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-link:hover{
+    border-bottom: 2px solid yellow;
+}
+.nav-item:first-child{
+    border-bottom: 2px solid yellow;
+}
+.country{
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 40px;
+}
+.country:hover{
+    background-color: #000;
+}
+.country:first-child{
+    background-color: #000;
+}
+
+
+.header{
+    margin: 0 auto;
+    width: 60%;
+}
+.header h1{
+    font-size: 80px;
+}
+.btn{
+    border-radius: 30px;
+}
+#flower{
+    height: 1000px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+/***************************************************************************************Second*/
+.section-2{
+    background-color: #DDA143;
+}
+.row{
+    margin: 0 auto;
+    width: 80%;
+}
+.col-8 h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+#f-left{
+    height: 1500px;
+    opacity: 0.2;
+    position: absolute;
+    top: 900px;
+    left: 0;
+}
+.col-12 h1{
+    font-size: 50px;
+}
+.s-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+.col-2 p{
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.col-12{
+    margin: 0 auto;
+}
+.card-1{
+    border-bottom-right-radius: 50px;
+}
+#bg2{
+    position: relative;
+}
+.content{
+    width: 980px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgb(7, 146, 164, 0.7) 0%, rgb(0, 122, 165, 0.7) 100%);
+}
+.class h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.class p{
+    font-size: 25px;
+}
+#p-text{
+    font-size: 15px;
+}
+#p-foot{
+    font-size: 20px;
+}
+
+
+#h2{
+    font-size: 50px;
+}
+.col-7{
+    margin: 0 auto;
+}
+
+/**************************************************************************************************Third*/
+
+.section-3{
+    width: 100%;
+    background-color: #DDA143;
+    position: relative;
+}
+#f-right{
+    height: 1500px;
+    position: absolute;
+    top: -200px;
+    right: 0;
+    opacity: 0.2;
+    z-index: 0;
+}
+.s3-content{
+    margin: 0 auto;
+    width: 80%;
+}
+.head{
+    width: 80%;
+}
+.head h2{
+    font-size: 60px;
+}
+.head p{
+    font-size: 25px;
+}
+.s3-cards{
+    width: 80%;
+    margin: 0 auto;
+}
+.s3-card{
+    width: 25%;
+}
+.s3-card p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-img{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+.s3-card:last-child{
+    width: 40%;
+}
+#p-last{
+    font-size: 16px;
+}
+.card-2{
+    border-top-left-radius: 50px;
+}
+
+.s-swipe{
+    width: 80%;
+    margin: 0 auto;
+    z-index: 99;
+}
+.swipe-img{
+    width: 35%;
+}
+#left{
+    height: 50px;
+    position: absolute;
+    top: 1300px;
+    left: 125px;
+}
+#right{
+    height: 50px;
+    position: absolute;
+    top: 1300px;
+    left: 600px;
+}
+.swipe-text{
+    width: 40%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.form{
+    width: 80%;
+    margin: 0 auto;
+    z-index: 99;
+    border-radius: 50px;
+}
+form input{
+    background-color: transparent;
+    border-bottom: 2px solid #C4C4C4;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #C4C4C4;
+    font-size: 40px;
+    font-family: "Calibri Light";
+    font-weight: lighter;
+    opacity: 0.5;
+}
+#f-left2{
+    height: 1500px;
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+#btn{
+    margin: 0 auto;
+    width: 60%;
+    height: 60px;
+    border-radius: 80px;
+    font-size: 30px;
+}
